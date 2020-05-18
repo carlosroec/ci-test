@@ -11,3 +11,10 @@ test("Test Fail", () => {
 
     expect(value).toEqual(expected);
 });
+
+test("Is equal 2", () => {
+    const value = 2;
+    const expected = 2;
+
+    expect(value).toEqual(expected);
+});
