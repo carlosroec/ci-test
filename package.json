@@ -1,0 +1,31 @@
+{
+  "name": "ci-test",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas para CI-SERVER",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosroec/ci-test.git"
+  },
+  "keywords": [
+    "Node.js",
+    "CI",
+    "Docker"
+  ],
+  "author": "carlosro_ec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosroec/ci-test/issues"
+  },
+  "homepage": "https://github.com/carlosroec/ci-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
